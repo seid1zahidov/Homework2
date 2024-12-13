@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#circle{
+    display: flex;
+    justify-content: center;
+}
+#circle .green-circle{
+    margin-top: 3rem;
+    background-color: beige;
+    width: 85%;
+    height: 500px;
+    text-align: center;  
+}
+#circle .green-circle .box{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    table{
+    border-collapse: collapse;
+    text-align: center;
+    }
+    th,td{
+    width: 100px;
+    };
+    table{
+        width: 80%;
+        height: 250px;
+    }
+    tbody,tr{
+        border: 1px solid greenyellow;
+    }
+}
+#circle .green-circle .box .theed{
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    text-align: start;
+
+}
